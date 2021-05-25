@@ -1,25 +1,28 @@
 
-
+html {
+  scroll-behavior: smooth;
+ }
 .container{
   margin: 0 4rem ;
 }
 
 .App-header {
-  background: #00A995;  min-height: 80vh;
+  min-height: 80vh;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   padding: 2rem;
-
+  color: #000;
+  background: rgba(61, 61, 61,0.4);
+  overflow-y: hidden;
+  position: relative;
 }
-
-
-
 a{
   text-decoration: none;
 }
 .white{
   color: white;
 }
+
 .navitems{
   color: white;
   display: flex;
@@ -30,6 +33,14 @@ a{
   margin: 2rem;
 }
 
+.videopart{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  
+}
 
 .landing{
   display: flex;
@@ -48,7 +59,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 font-style: normal;
 font-weight: 500;
 font-size: 52px;
-line-height: 84px;
+line-height: 74px;
 /* or 162% */
 
 display: flex;
@@ -57,10 +68,33 @@ align-items: center;
 color: #FFFFFF;
 }
 
-.landing-image{
-position: relative;
-left: 50%;
-top: 10px;
-transform: rotate(90deg);
 
+.landing-image{
+  position: relative;
+  left: 50%;
+  top: 10px;
+  transform: rotate(90deg);
+  
+}
+  
+
+/* arrow box */
+.arrowbox{
+  font-size: 3rem;
+  background: rgb(255, 255, 255);
+  text-align: center;
+
+
+}
+.arrowbox .ourarrow{
+  cursor: pointer;
+  color: #000;
+
+}
+
+
+/* video box */
+
+.videoeventbox{
+  padding: 2rem;
 }
