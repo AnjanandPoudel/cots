@@ -1,13 +1,25 @@
 
 html {
   scroll-behavior: smooth;
+  
  }
+
+
+ /* .mainheader{
+  background: #00A995;
+  position: relative;
+  z-index: -2;
+  min-height: 75vh;
+
+ } */
+
+
 .container{
   margin: 0 4rem ;
 }
 
 .App-header {
-  min-height: 80vh;
+  min-height: 75vh;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   padding: 2rem;
@@ -15,6 +27,7 @@ html {
   background: rgba(61, 61, 61,0.4);
   overflow-y: hidden;
   position: relative;
+  
 }
 a{
   text-decoration: none;
@@ -55,7 +68,7 @@ height: 134px;
 left: 120px;
 top: 247px;
 
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 52px;
@@ -65,7 +78,7 @@ line-height: 74px;
 display: flex;
 align-items: center;
 
-color: #FFFFFF;
+color: #e6e5e5;
 }
 
 
@@ -86,15 +99,174 @@ color: #FFFFFF;
 
 
 }
-.arrowbox .ourarrow{
+.arrowbox i{
   cursor: pointer;
-  color: #000;
+  color: rgb(72, 70, 70);
+  margin: 2rem;
+}
 
+/* Cots image and descp */
+.cots-image{
+  position: relative;
+  width: 105px;
+  height: 63px;
+  margin: 2rem 0;
+  left: 50%;
+  transform: translate(-50%);
+  background: url(assets/cots.png);
+}
+
+.cots-descp{
+font-family: Roboto Slab;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 29px;
+align-items: center;
+text-align: center;
+color: #063F5C;
+}
+.cots-descp p{
+  width: 560px;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+/* video box */
+.videoeventbox{
+position: relative;
+width: 90%;
+height: 400px;
+left: 50%;
+margin:0 0  2rem 0;
+transform: translate(-50%);
+background: rgb(194, 194, 194);
+background: url(assets/Frame.png), #063F5C;
 }
 
 
-/* video box */
+/* cards */
+.carouselComp h3{
+  position: relative;
+  height: 39px;
+  font-family: Roboto Slab;
+  align-items: center;
+  text-transform: uppercase;
+  color: #063F5C;
+  margin: 5rem 5% 0  5%;
+}
+.carouselComp .cards{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  color: #063F5C;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
 
-.videoeventbox{
-  padding: 2rem;
+}
+.carouselComp .featured-box{
+position: relative;
+ width: 40%;
+ margin: 3.4rem 2rem;
+ max-height: 360px;
+ align-items: center;
+}
+.carouselComp .featured-box .featured{
+  position: relative;
+ height: 100%;
+ background: rgb(44, 41, 41);
+ overflow: hidden;
+}
+.carouselComp .featured-box img{
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50% ,-50%);
+  width: 100%;
+}
+
+
+/* Footer */
+
+
+.footerComponent{
+  text-align: center !important;
+}
+
+.footer{
+  background: #063F5C;
+  padding: 3rem;
+  margin: 4rem;
+  text-align: center;
+}
+.footer-text{
+font-family: Rubik,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 42px;
+line-height: 24px;
+/* or 162% */
+
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+}
+
+.footerdescp{
+  line-height: 24px;
+  color: #FFFFFF;
+  width: 50%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+.collab-btn{
+  padding:0.4rem 1.5rem;
+  margin: 2rem;
+  background: white;
+  border: hidden;
+  outline: honeydew;
+  font-size: large;
+}
+/* footer flexes */
+.footer-flexes{
+  position: relative;
+  display:flex ;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 4rem;
+
+}
+.footer-flex:hover{
+ background: rgb(16, 111, 98);
+}
+.footer-flex{
+  background: #063F5C;
+  height: 250px;
+  width: 250px;
+  text-align: center;
+  position: relative;
+
+}
+.footer-flex span{
+  color: white;
+  position: relative;
+  top: 45%;
+  transform: translate(-56%,-54%);
+  padding: 1rem;
+  text-transform: uppercase;
+
+}
+.footerComponent hr{
+  width: 90%;
+  border: 1px solid #063F5C;
+}
+.copyright{
+  color: #849CAC;
+  margin: 1rem 0 2rem 0;
+
 }

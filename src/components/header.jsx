@@ -3,7 +3,8 @@ import React from 'react' ;
 function Header(){
     return(
         <div className="header">
-                <header className="App-header ">
+               <div className="mainheader">
+               <header className="App-header ">
                     <video autoPlay muted loop className="videopart">
                         <source src="/videos/vid.mp4" type="video/mp4" />
                         Your browser does not support HTML5 video.
@@ -25,9 +26,11 @@ function Header(){
 
                                 </div>
                             </div>
-            </header>
+                </header>
+                
+               </div>
             <div className="arrowbox">
-                <a href="#middle"> <i class="fa fa-angle-double-down"></i>
+                <a href="#middle"> <i class="fa fa-angle-down"></i>
                 </a>
             </div>
 

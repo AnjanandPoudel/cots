@@ -1,4 +1,6 @@
 import React,{Component} from 'react' ;
+import CarouselComp from './carouselsComp';
+import Footer from './footer';
 import Header from './header'
 import MiddleComponent from './middleComponent'
 
@@ -14,6 +16,8 @@ class Main extends Component{
             <div className="header">
                 <Header />
                 <MiddleComponent />
+                <CarouselComp />
+                <Footer />
             </div>
         )
     }
