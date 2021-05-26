@@ -5,13 +5,13 @@ html {
  }
 
 
- /* .mainheader{
+ .mainheader{
   background: #00A995;
   position: relative;
   z-index: -2;
   min-height: 75vh;
 
- } */
+ }
 
 
 .container{
@@ -269,4 +269,62 @@ color: #FFFFFF;
   color: #849CAC;
   margin: 1rem 0 2rem 0;
 
+}
+
+@media screen and (max-width:780px){
+  .App-header{
+    padding: 0;
+    margin: 0;
+  }
+  .cots-descp p {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+.landing-page{
+  width: 100%;
+  left: 0%;
+  padding: 0 1rem;
+  position: relative;
+  line-height: 60px;
+}
+.carouselComp .featured-box {
+  position: relative;
+  width: 90%;
+  margin: 3.4rem 2rem;
+  max-height: 360px;
+  align-items: center;
+}
+.footer {
+  background: #063F5C;
+  padding: 1rem;
+  margin: 0rem;
+  text-align: center;
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 37px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+.footerdescp {
+  line-height: 24px;
+  color: #FFFFFF;
+  width: 90%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+.footer-flex {
+  background: #063F5C;
+  height: 100px;
+  width: 250px;
+  text-align: center;
+  position: relative;
+}
 }
