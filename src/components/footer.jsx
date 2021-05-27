@@ -43,9 +43,9 @@ class Footer extends Component{
                 </div>
                 <hr />
                 <div className="copyright">
-                    © CoTS 2021, All Rights Reserved     Privacy Policy
+                    <span> © CoTS 2021, All Rights Reserved     <a href="/">Privacy Policy</a></span>    
                 </div>
-
+                <span className="cp-smalltext"> Build by <a href="/">Anjan Poudel</a> </span>                
             </div>
 
             

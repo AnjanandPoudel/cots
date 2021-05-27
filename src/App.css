@@ -266,10 +266,27 @@ color: #FFFFFF;
   border: 1px solid #063F5C;
 }
 .copyright{
-  color: #849CAC;
-  margin: 1rem 0 2rem 0;
+  color: #849CAC ;
+  margin: 1rem 0 2rem 1rem;
 
 }
+.copyright a{ 
+  text-decoration: underline;
+  color: #849CAC ;
+
+
+}
+
+.cp-smalltext{
+  color: #849CAC;
+  float: right;
+  margin: 0 4rem 0 0;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+
+
 
 @media screen and (max-width:780px){
   .App-header{
@@ -327,4 +344,10 @@ color: #FFFFFF;
   text-align: center;
   position: relative;
 }
+.cp-smalltext{
+
+  margin: 0 0.2rem 0 0;
+  font-size: 12px;
+}
+
 }
